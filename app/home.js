@@ -229,7 +229,6 @@ function (_Component) {
   _createClass(KonnectorInstall, [{
     key: "handleLoginSuccess",
     value: function handleLoginSuccess(trigger) {
-      console.log('tigger login success', trigger);
       this.setState({
         trigger: trigger,
         success: true
@@ -239,7 +238,6 @@ function (_Component) {
   }, {
     key: "handleSuccess",
     value: function handleSuccess(trigger) {
-      console.log('handleSuccess 3', trigger);
       this.setState({
         trigger: trigger,
         success: true
