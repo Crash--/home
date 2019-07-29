@@ -231,7 +231,7 @@ function (_Component) {
   }, {
     key: "handleSuccess",
     value: function handleSuccess(trigger) {
-      console.log('handleSuccess', trigger);
+      console.log('handleSuccess 3', trigger);
       this.setState({
         trigger: trigger,
         success: true
